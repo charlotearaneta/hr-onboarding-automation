@@ -1,1 +1,15 @@
+Subject: Welcome to the team, {full_name}! 🎉
+
+Hi {full_name},
+
+Welcome to the team! We’re excited to have you join us as our new {role}.
+
+Your start date is {start_date}. On Day 1, you’ll receive a brief orientation and a quick walkthrough of the tools and workflows you’ll be using.
+
+Your manager, {manager_name}, will connect with you to confirm your schedule and expectations for your first week.
+
+If you have any questions before your start date, feel free to reply to this email.
+
+Warm regards,
+HR Team
 
