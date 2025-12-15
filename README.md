@@ -205,18 +205,6 @@ Building this system reinforced key lessons in HR-Tech automation:
 
 ---
 
-### 🎯 What I Learned
-
-Building this system reinforced key lessons in HR-Tech automation:
-
-✔ Translating HR processes into executable workflows
-✔ Designing scalable and modular automation systems
-✔ Managing external APIs securely and responsibly
-✔ Balancing efficiency with a human-centered employee experience
-✔ Applying automation to solve real operational HR challenges
-
----
-
 ## 🌍 Long-Term Vision
 
 This project serves as a foundation for a broader **HR operations automation platform** that supports:
