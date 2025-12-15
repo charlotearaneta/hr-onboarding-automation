@@ -148,9 +148,9 @@ Create or update a JSON file in the data/ folder with the new hire’s details.
 
 ### 5. Run the automation
 
-```bash
+```python
 
-python src/main.py --new-hire data/new_hire.json
+src/main.py --new-hire data/new_hire.json
 
 
 ```
