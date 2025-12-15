@@ -33,14 +33,17 @@ employee-onboarding-automation/
 │  └─ utils.py
 │
 ├─ data/
+│  ├─ email_templates.json
 │  ├─ new_hire.sample.json
-│  └─ onboarding_checklist.json
+│  ├─ onboarding_checklist.json
+│  └─ welcome_email_template.txt
 │
 ├─ results/
 │  └─ .gitkeep
 │
 ├─ .env.example
 ├─ requirements.txt
+├─ case-study.md
 └─ README.md
 
 ```
