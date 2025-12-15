@@ -1,6 +1,9 @@
 # 🚀 Employee Onboarding Automation System  
 ## Case Study  
 *A Human-Centered HR-Tech Automation for Consistent and Scalable Onboarding*
+The Employee Onboarding Automation System is an HR-Tech automation project designed to standardize and streamline employee onboarding workflows using Python, ClickUp API, and Gmail API. The system automates the creation of onboarding tasks, assignment of training resources, delivery of welcome communications, and scheduling of probation reminders to ensure every new hire receives a consistent and timely onboarding experience.
+
+This case study demonstrates how HR domain knowledge can be translated into practical automation workflows that reduce administrative effort while preserving a human-centered employee experience. By combining process design, workflow automation, and modular system architecture, the project highlights how technology can support HR teams in scaling operations without sacrificing clarity, accountability, or employee engagement.
 
 ---
 
