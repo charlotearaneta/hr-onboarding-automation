@@ -1,6 +1,6 @@
 # 🚀 Employee Onboarding Automation System  
 ## Case Study  
-*A Human-Centered HR-Tech Automation for Consistent and Scalable Onboarding*
+### *A Human-Centered HR-Tech Automation for Consistent and Scalable Onboarding*
 
 This case study explores the design and development of an Employee Onboarding Automation System that streamlines onboarding workflows and task management for new hires. Built at the intersection of HR expertise, Python automation, and workflow APIs, the system automatically creates onboarding tasks, assigns training resources, sends welcome communications, and schedules probation reminders.
 
