@@ -1,1 +1,11 @@
+```json
+
+{
+  "full_name": "James Walker",
+  "email": "james.walker@email.com",
+  "role": "IT Support Officer",
+  "start_date": "2026-01-05",
+  "manager_name": "Sarah Lee",
+  "department": "IT"
+}
 
