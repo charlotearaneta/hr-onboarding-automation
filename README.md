@@ -23,8 +23,6 @@ The goal is to **reduce administrative workload** for HR teams while creating a 
 ## 📂 Project Structure
 
 ```text
-## 📂 Project Structure
-
 hr-onboarding-automation/
 │
 ├─ src/
