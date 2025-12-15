@@ -1,1 +1,61 @@
+{
+  "project_name_template": "Onboarding: {full_name} ({role})",
+  "default_tags": ["onboarding", "hr-ops"],
+  "tasks": [
+    {
+      "title": "Create company accounts for {full_name}",
+      "description": "Create user accounts (email, SSO, tools). Confirm access and credentials delivery.\n\nNew hire: {full_name}\nRole: {role}\nStart date: {start_date}\nManager: {manager_name}",
+      "days_after_start": -2,
+      "assignee": "hr"
+    },
+    {
+      "title": "Prepare device + equipment for {full_name}",
+      "description": "Prepare laptop, peripherals, and required software/tools.\n\nNew hire: {full_name}\nRole: {role}\nStart date: {start_date}",
+      "days_after_start": -1,
+      "assignee": "it"
+    },
+    {
+      "title": "Send Day 1 welcome + orientation schedule to {full_name}",
+      "description": "Send welcome message and Day 1 agenda.\n\nNew hire: {full_name}\nEmail: {email}\nStart date: {start_date}\nManager: {manager_name}",
+      "days_after_start": 0,
+      "assignee": "hr"
+    },
+    {
+      "title": "Day 1: Team introduction + expectations",
+      "description": "Introduce the team, clarify role expectations, and confirm initial goals.\n\nNew hire: {full_name}\nManager: {manager_name}",
+      "days_after_start": 0,
+      "assignee": "manager"
+    },
+    {
+      "title": "Week 1: Required training & tools setup check",
+      "description": "Confirm tool access, complete mandatory trainings, and resolve blockers.\n\nNew hire: {full_name}\nRole: {role}",
+      "days_after_start": 5,
+      "assignee": "hr"
+    },
+    {
+      "title": "Week 2: Manager check-in",
+      "description": "Check progress, clarify tasks, and gather feedback from the new hire.\n\nNew hire: {full_name}\nManager: {manager_name}",
+      "days_after_start": 10,
+      "assignee": "manager"
+    },
+    {
+      "title": "30-day onboarding review",
+      "description": "Review onboarding progress, role fit, and early wins.\n\nNew hire: {full_name}\nRole: {role}\nManager: {manager_name}",
+      "days_after_start": 30,
+      "assignee": "hr"
+    },
+    {
+      "title": "60-day probation check-in reminder",
+      "description": "Schedule a 60-day check-in for probation performance review.\n\nNew hire: {full_name}\nManager: {manager_name}",
+      "days_after_start": 60,
+      "assignee": "manager"
+    },
+    {
+      "title": "90-day probation review reminder",
+      "description": "Schedule a 90-day probation review and finalize confirmation decisions.\n\nNew hire: {full_name}\nRole: {role}\nManager: {manager_name}",
+      "days_after_start": 90,
+      "assignee": "manager"
+    }
+  ]
+}
 
