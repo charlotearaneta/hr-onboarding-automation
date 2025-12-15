@@ -160,7 +160,7 @@ Once executed, onboarding tasks will be created in ClickUp and execution logs wi
 
 ---
 
-## 🖼 Demo or Live Project
+## 🖼 Demo 
 
 This project runs locally using authenticated API connections.  
 Sample outputs and execution logs are stored in the `results/` folder.
