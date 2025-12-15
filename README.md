@@ -217,3 +217,14 @@ This project serves as a foundation for a broader **HR operations automation pla
 
 The ultimate goal is to **empower HR teams through automation**, allowing them to focus on people—not paperwork.
 
+---
+
+
+## 📬 Contact
+👩‍💻 Created by: **Charlote Araneta**
+
+🔗 LinkedIn: https://www.linkedin.com/in/charlotearaneta
+
+🌐 Portfolio: https://charlotearaneta.github.io
+
+---
