@@ -1,4 +1,5 @@
 # 🚀 Employee Onboarding Automation System
+### *HR onboarding automation using Python + ClickUp + Gmail*
 
 An HR Tech automation system that streamlines employee onboarding by automatically creating onboarding tasks, assigning training resources, sending welcome emails, and scheduling probation reminders.
 
