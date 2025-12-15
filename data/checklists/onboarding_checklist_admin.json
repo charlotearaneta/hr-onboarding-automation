@@ -1,1 +1,56 @@
+{
+  "role_key": "ADMIN",
+  "project_name_template": "Onboarding: {full_name} ({role})",
+  "default_tags": ["onboarding", "admin"],
+  "tasks": [
+    {
+      "title": "Prepare workstation + office access for {full_name}",
+      "description": "Prepare workspace, access cards (if applicable), and basic equipment.\n\nNew hire: {full_name}\nStart date: {start_date}",
+      "days_after_start": -1,
+      "assignee": "admin"
+    },
+    {
+      "title": "Create email + shared folder access for {full_name}",
+      "description": "Create email account and grant access to shared resources.\n\nNew hire: {full_name}\nEmail: {email}",
+      "days_after_start": -2,
+      "assignee": "it"
+    },
+    {
+      "title": "Day 1: Admin orientation + workflows",
+      "description": "Walkthrough office procedures, requests, approvals, and documentation processes.",
+      "days_after_start": 0,
+      "assignee": "admin"
+    },
+    {
+      "title": "Week 1: Documentation + tools training",
+      "description": "Training on file organization, document templates, and internal tools.",
+      "days_after_start": 5,
+      "assignee": "admin"
+    },
+    {
+      "title": "Week 2: Manager check-in",
+      "description": "Review progress, clarify priorities, and address blockers.",
+      "days_after_start": 10,
+      "assignee": "manager"
+    },
+    {
+      "title": "30-day onboarding review",
+      "description": "Review onboarding completion and operational readiness.",
+      "days_after_start": 30,
+      "assignee": "manager"
+    },
+    {
+      "title": "60-day probation check-in reminder",
+      "description": "Schedule 60-day check-in.\n\nNew hire: {full_name}",
+      "days_after_start": 60,
+      "assignee": "manager"
+    },
+    {
+      "title": "90-day probation review reminder",
+      "description": "Schedule 90-day probation review.\n\nNew hire: {full_name}",
+      "days_after_start": 90,
+      "assignee": "manager"
+    }
+  ]
+}
 
