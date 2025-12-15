@@ -23,28 +23,32 @@ The goal is to **reduce administrative workload** for HR teams while creating a 
 ## 📂 Project Structure
 
 ```text
-employee-onboarding-automation/
+## 📂 Project Structure
+
+hr-onboarding-automation/
 │
 ├─ src/
-│  ├─ main.py
-│  ├─ clickup_client.py
-│  ├─ gmail_client.py
-│  ├─ templates.py
-│  └─ utils.py
+│  ├─ main.py                  
+│  └─ gmail_client.py          
 │
 ├─ data/
-│  ├─ email_templates.json
-│  ├─ new_hire.sample.json
-│  ├─ onboarding_checklist.json
-│  └─ welcome_email_template.txt
+│  ├─ new_hire.sample.json     
+│  ├─ onboarding_checklist.json 
+│  ├─ email_templates.json     
+│  ├─ welcome_email_template.txt 
+│  │
+│  └─ checklists/              
+│     ├─ onboarding_checklist_admin.json
+│     ├─ onboarding_checklist_hr.json
+│     └─ onboarding_checklist_it.json
 │
 ├─ results/
-│  └─ .gitkeep
+│  └─ .gitkeep                
 │
-├─ .env.example
-├─ requirements.txt
-├─ case-study.md
-└─ README.md
+├─ .env.example               
+├─ requirements.txt            
+├─ README.md                  
+└─ case-study.md              
 
 ```
 
@@ -104,7 +108,7 @@ Each automation run is logged for transparency, auditing, and troubleshooting.
 - **Python**
 - **ClickUp API**
 - **Gmail API**
-- **python-dotenv**
+- **Python-dotenv**
 - **JSON-based configuration**
 - **VS Code & GitHub**
 
@@ -167,7 +171,7 @@ Screenshots and demo walkthroughs can be added to the `assets/` folder for docum
 
 ## 🗺 Roadmap
 
-### Phase 1 — MVP (Current)
+### Phase 1 — MVP 
 - ClickUp onboarding task automation  
 - Structured new hire input  
 - Execution logging  
@@ -210,7 +214,7 @@ This project serves as a foundation for a broader **HR operations automation pla
 - Reduced administrative overhead  
 - Scalable HR workflows for growing organizations  
 
-The ultimate goal is to **empower HR teams through automation**, allowing them to focus on people—not paperwork.
+The ultimate goal is to **empower HR teams through automation**, allowing them to focus on people not paperwork.
 
 ---
 
