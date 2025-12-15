@@ -150,14 +150,6 @@ python src/main.py --new-hire data/new_hire.json
 
 Once executed, onboarding tasks will be created in ClickUp and execution logs will be saved in the results/ folder.
 
-```markdown
-
-If you want, I can also:
-- Add a **Phase 2 setup section** (Gmail API OAuth)
-- Simplify this for **non-technical HR users**
-- Create a **“Quick Start”** version for recruiters
-
-```
 
 ---
 
