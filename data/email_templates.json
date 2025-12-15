@@ -1,0 +1,4 @@
+{
+  "welcome_subject": "Welcome to the team, {full_name}! 🎉",
+  "welcome_body": "Hi {full_name},\n\nWelcome to the team! We’re excited to have you join us as our new {role}.\n\nYour start date is {start_date}. On Day 1, you’ll receive a brief orientation and a quick walkthrough of the tools and workflows you’ll be using.\n\nYour manager, {manager_name}, will connect with you to confirm your schedule and expectations for your first week.\n\nIf you have any questions before your start date, feel free to reply to this email.\n\nWe’re glad you’re here!\n\nWarm regards,\nHR Team"
+}
