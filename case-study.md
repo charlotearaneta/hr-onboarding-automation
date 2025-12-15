@@ -1,6 +1,6 @@
 # 🚀 Employee Onboarding Automation System  
 ## Case Study  
-### *A Human-Centered HR-Tech Automation for Consistent and Scalable Onboarding*
+### *A Human-Centered HR Tech Automation for Consistent and Scalable Onboarding*
 
 This case study explores the design and development of an Employee Onboarding Automation System that streamlines onboarding workflows and task management for new hires. Built at the intersection of HR expertise, Python automation, and workflow APIs, the system automatically creates onboarding tasks, assigns training resources, sends welcome communications, and schedules probation reminders.
 
@@ -10,7 +10,7 @@ The project demonstrates how HR domain expertise can be translated into scalable
 
 ## 1. Executive Summary
 
-The **Employee Onboarding Automation System** is an HR-Tech automation project designed to streamline and standardize employee onboarding processes using **Python, ClickUp API, and Gmail API**. The system automates onboarding tasks, training assignments, welcome communications, and probation reminders to ensure every new hire receives a consistent and timely onboarding experience.
+The **Employee Onboarding Automation System** is an HR Tech automation project designed to streamline and standardize employee onboarding processes using **Python, ClickUp API, and Gmail API**. The system automates onboarding tasks, training assignments, welcome communications, and probation reminders to ensure every new hire receives a consistent and timely onboarding experience.
 
 Developed at the intersection of **HR operations and workflow automation**, this project demonstrates how technology can reduce administrative burden while preserving a human-centered employee experience. It reflects my transition from HR into tech, applying automation to solve real operational challenges in people management.
 
@@ -111,7 +111,7 @@ Building this project reinforced several important lessons:
 
 ✔ How to translate HR processes into executable automation workflows  
 ✔ The importance of standardization in HR operations  
-✔ How APIs enable scalable HR-Tech solutions  
+✔ How APIs enable scalable HR Tech solutions  
 ✔ The value of modular design for future integrations  
 ✔ How automation can enhance, not replace, human-centered HR practices  
 
