@@ -85,7 +85,7 @@ Welcome emails are generated and sent, and reminder tasks are scheduled for key 
 ### 4. Execution Logging  
 Each automation run is logged for transparency, auditing, and troubleshooting.
 
-📥 Input Example (new_hire.json)
+## 📥 Input Example (new_hire.json)
 
 ```json
 
