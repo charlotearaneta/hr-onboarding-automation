@@ -4,7 +4,7 @@
 
 This case study explores the design and development of an Employee Onboarding Automation System that streamlines onboarding workflows and task management for new hires. Built at the intersection of HR expertise, Python automation, and workflow APIs, the system automatically creates onboarding tasks, assigns training resources, sends welcome communications, and schedules probation reminders.
 
-The project demonstrates how human centered design principles and responsible automation can be applied to HR operations to reduce administrative workload, improve consistency, and support scalable onboarding processes without removing the human touch from employee experience and people management.
+The project demonstrates how HR domain expertise can be translated into scalable, human-centered automation workflows that reduce administrative effort while preserving employee experience.
 
 ---
 
