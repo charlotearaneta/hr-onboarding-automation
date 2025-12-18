@@ -117,20 +117,6 @@ Building this project reinforced several important lessons:
 
 ---
 
-## 🌍 Long-Term Vision
-
-This project serves as a foundation for a broader **HR Operations Automation Platform** that could include:
-
-- Role-based onboarding pipelines  
-- Automated offboarding workflows  
-- Integration with ATS and HRIS systems  
-- Employee lifecycle dashboards  
-- Analytics on onboarding effectiveness  
-
-The long-term goal is to empower HR teams through automation, enabling them to focus more on people, culture, and strategic initiatives.
-
----
-
 ## 📬 Contact
 👩‍💻 Created by: **Charlote Araneta**
 
