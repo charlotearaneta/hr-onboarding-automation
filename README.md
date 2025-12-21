@@ -165,8 +165,6 @@ Once executed, onboarding tasks will be created in ClickUp and execution logs wi
 This project runs locally using authenticated API connections.  
 Sample outputs and execution logs are stored in the `results/` folder.
 
-Screenshots and demo walkthroughs can be added to the `assets/` folder for documentation and portfolio presentation.
-
 ---
 
 ## 🗺 Roadmap
