@@ -9,7 +9,7 @@ This project demonstrates how **HR expertise, workflow automation, and AI-ready 
 
 ## 🌟 Overview
 
-Employee onboarding is often repetitive, manual, and prone to inconsistency—especially for growing teams and small organizations. This system automates core onboarding activities to ensure every new hire receives a structured, timely, and welcoming onboarding experience.
+Employee onboarding is often repetitive, manual, and prone to inconsistency especially for growing teams and small organizations. This system automates core onboarding activities to ensure every new hire receives a structured, timely, and welcoming onboarding experience.
 
 The automation handles:
 - Task creation for onboarding checklists
@@ -66,7 +66,7 @@ Generates and sends personalized welcome emails to new employees (via Gmail API)
 Schedules follow-up tasks and reminders for probation reviews and check-ins.
 
 ### ✔ Modular & Extendable Design  
-Built with scalability in mind—can integrate with additional HR tools and systems.
+Built with scalability in mind can integrate with additional HR tools and systems.
 
 ---
 
