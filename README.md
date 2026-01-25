@@ -1,36 +1,67 @@
-# 🚀 Employee Onboarding Automation System
-### *HR onboarding automation using Python + ClickUp + Gmail*
+# 🚀 End-to-End Employee Onboarding Workflow (n8n)
 
-An HR Tech automation system that streamlines employee onboarding by automatically creating onboarding tasks, assigning training resources, sending welcome emails, and scheduling probation reminders.
-
-This project demonstrates how **HR expertise, workflow automation, and AI-ready architecture** can be combined to improve operational efficiency while maintaining a human-centered employee experience.
+An event-driven employee onboarding automation system built using **n8n**, designed to streamline HR operations, reduce manual administrative tasks, and improve onboarding consistency.
 
 ---
 
 ## 🌟 Overview
 
-Employee onboarding is often repetitive, manual, and prone to inconsistency especially for growing teams and small organizations. This system automates core onboarding activities to ensure every new hire receives a structured, timely, and welcoming onboarding experience.
+Traditional onboarding processes rely heavily on manual coordination between HR, IT, and hiring managers. This often leads to:
 
-The automation handles:
-- Task creation for onboarding checklists
-- Assignment of training and resources
-- Welcome communication
-- Reminder scheduling for probation reviews
+- Delays in task assignment
+- Missed documentation
+- Poor onboarding experience
+- Lack of process visibility
 
-The goal is to **reduce administrative workload** for HR teams while creating a **consistent and positive first experience** for new employees.
+This project demonstrates how an **event-driven workflow architecture** using n8n can automate onboarding from offer acceptance to 90-day follow-up.
 
 ---
 
-## 📂 Project Structure
+## 🧭 Workflow Architecture
+
+Trigger → Processing → Task Creation → Communication → Tracking
+
+1. Offer Accepted (Webhook Trigger)
+2. Data Validation
+3. Employee Record Processing
+4. ClickUp Task Creation
+5. Welcome Email Automation
+6. Google Calendar Setup
+7. 30/60/90-Day Reminder Scheduling
+
+---
+
+## ⚙️ Technical Stack
+
+- n8n (workflow automation engine)
+- ClickUp API
+- Gmail / SMTP
+- Google Calendar API
+- Python (optional validation layer)
+- JSON-based data handling
+
+---
+
+## 🧠 Workflow Design Principles
+
+- Event-driven automation
+- Modular node structure
+- Role-based conditional logic
+- Audit-friendly documentation
+- Ethical handling of employee data
+- Scalable architecture
+
+---
+
+## 📂 Repository Structure
 
 ```text
 hr-onboarding-automation/
 │
-├─ src/
-│  ├─ main.py                  
-│  └─ gmail_client.py          
+├─ workflows/
+│  ├─ n8n exported workflow JSON                   
 │
-├─ data/
+├─ src/
 │  ├─ new_hire.sample.json     
 │  ├─ onboarding_checklist.json 
 │  ├─ email_templates.json     
@@ -51,145 +82,53 @@ hr-onboarding-automation/
 
 ```
 
-## 🚀 Features
-
-### ✔ Automated Onboarding Task Creation  
-Creates ClickUp tasks from a standardized onboarding checklist for each new hire.
-
-### ✔ Training & Resource Assignment  
-Automatically assigns training tasks and learning materials based on role or department.
-
-### ✔ Welcome Email Automation  
-Generates and sends personalized welcome emails to new employees (via Gmail API).
-
-### ✔ Probation & Check-In Reminders  
-Schedules follow-up tasks and reminders for probation reviews and check-ins.
-
-### ✔ Modular & Extendable Design  
-Built with scalability in mind can integrate with additional HR tools and systems.
-
 ---
 
-## 🧠 How It Works
+## 🖼 Example Workflow Flow
 
-### 1. New Hire Data Input  
-HR provides new hire details in a structured JSON file (name, role, start date, manager, etc.).
-
-### 2. Task Automation  
-The system reads a predefined onboarding checklist and creates corresponding ClickUp tasks.
-
-### 3. Communication & Scheduling  
-Welcome emails are generated and sent, and reminder tasks are scheduled for key milestones.
-
-### 4. Execution Logging  
-Each automation run is logged for transparency, auditing, and troubleshooting.
-
-## 📥 Input Example (new_hire.json)
-
-```json
-
-{
-  "full_name": "James Walker",
-  "email": "james.walker@email.com",
-  "role": "IT Support Officer",
-  "start_date": "2026-01-05",
-  "manager_name": "Sarah Lee",
-  "department": "IT"
-}
-
-```
-
----
-
-
-## 🛠 Tech Stack
-
-- **Python**
-- **ClickUp API**
-- **Gmail API**
-- **Python-dotenv**
-- **JSON-based configuration**
-- **VS Code & GitHub**
-
----
-
-## ⚙️ Setup Instructions
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/employee-onboarding-automation.git
-cd employee-onboarding-automation
-
-```
-
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-
-```
-
-### 3. Configure environment variables
-
-Create a .env file using .env.example and add your credentials:
-
-```env
-
-CLICKUP_API_TOKEN=your_clickup_token
-CLICKUP_LIST_ID=your_clickup_list_id
-
-```
-
-### 4. Add new hire data
-
-Create or update a JSON file in the data/ folder with the new hire’s details.
-
-### 5. Run the automation
-
-```python
-
-src/main.py --new-hire data/new_hire.json
-
-
-```
-
-Once executed, onboarding tasks will be created in ClickUp and execution logs will be saved in the results/ folder.
+[Offer Accepted - Form]
+↓
+[n8n Webhook]
+↓
+[Validate Employee Data]
+↓
+[Create ClickUp Tasks]
+↓
+[Send Welcome Email]
+↓
+[Schedule Calendar Events]
+↓
+[Set 30/60/90 Day Reminders]
 
 
 ---
 
-## 🖼 Demo 
+## 📈 Scalability
 
-This project runs locally using authenticated API connections.  
-Sample outputs and execution logs are stored in the `results/` folder.
+This system supports:
+
+- Role-based onboarding tracks
+- Department-specific task automation
+- Remote vs Onsite onboarding logic
+- Multi-department scaling
+
+Future improvements:
+- HRIS integration
+- Slack notifications
+- Automated document generation
+- AI-powered onboarding summary reports
+
+---
+
+## 🎯 Impact
+
+- Reduced manual onboarding coordination
+- Improved process consistency
+- Enhanced employee experience
+- Clear task ownership and tracking
 
 ---
 
-## 🗺 Roadmap
-
-### Phase 1 — MVP 
-- ClickUp onboarding task automation  
-- Structured new hire input  
-- Execution logging  
-
-### Phase 2 — Communication Enhancements
-- Gmail API integration  
-- Email templates  
-- Calendar event creation  
-
-### Phase 3 — Advanced HR Workflows
-- Role-based onboarding flows  
-- Probation evaluation automation  
-- HR dashboard integration  
-
-### Phase 4 — Integrations & Scaling
-- Integration with ATS systems  
-- Notion or HRIS sync  
-- Multi-team onboarding pipelines  
-
----
 
 ## 🎯 What I Learned
 
