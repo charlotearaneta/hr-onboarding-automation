@@ -1,0 +1,19 @@
+{
+  "employee_id": "EMP-2026-001",
+  "tasks_created": [
+    "Complete HR documentation",
+    "IT system access setup",
+    "Company orientation session",
+    "30-day performance check-in",
+    "60-day development review",
+    "90-day probation evaluation"
+  ],
+  "calendar_events": [
+    "Orientation - Feb 15",
+    "30-Day Check-In - Mar 15",
+    "60-Day Review - Apr 15",
+    "90-Day Evaluation - May 15"
+  ],
+  "welcome_email_status": "Sent",
+  "workflow_status": "Completed"
+}
