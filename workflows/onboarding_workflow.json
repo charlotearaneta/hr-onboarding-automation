@@ -1,1 +1,26 @@
+{
+  "name": "Employee Onboarding Workflow",
+  "nodes": [
+    {
+      "type": "n8n-nodes-base.webhook",
+      "name": "Offer Accepted Trigger"
+    },
+    {
+      "type": "n8n-nodes-base.if",
+      "name": "Role-Based Logic"
+    },
+    {
+      "type": "n8n-nodes-base.httpRequest",
+      "name": "Create ClickUp Tasks"
+    },
+    {
+      "type": "n8n-nodes-base.emailSend",
+      "name": "Send Welcome Email"
+    },
+    {
+      "type": "n8n-nodes-base.googleCalendar",
+      "name": "Schedule Events"
+    }
+  ]
+}
 
