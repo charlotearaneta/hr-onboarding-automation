@@ -1,0 +1,10 @@
+{
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "john.doe@email.com",
+  "role": "HR Specialist",
+  "department": "Human Resources",
+  "start_date": "2026-02-15",
+  "employment_type": "Full-Time",
+  "work_setup": "Remote"
+}
