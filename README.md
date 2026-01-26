@@ -190,7 +190,6 @@ The long term goal is to build human centered HR Tech systems that empower teams
 ---
 
 
-
 ## 📬 Contact
 👩‍💻 Created by: **Charlote Araneta**
 
